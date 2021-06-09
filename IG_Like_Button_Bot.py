@@ -1,16 +1,3 @@
-# Think about the logic
-# 1. Go to https://www.instagram.com
-# 2. Insert username and password
-# 3. Click on the ‘Log In’ button
-# 4. Search for IG username using the search bar, click on user when account appears
-# in dropdown
-# 5. Click on the first photo of the user’s feed
-# 6. Double click on the photo to like it
-
-# webdriver → library used to control web browser
-# ActionChains → library used to enable double-click function
-# time → library used to pause the program to give some time for the browser to load each page
-
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 import time
